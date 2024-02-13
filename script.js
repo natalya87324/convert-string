@@ -13,6 +13,7 @@ function add() {
   let data = titleCase(document.querySelector('.add').value);
 
   document.querySelector('.out').value = data;
+  document.querySelector('.add').value = '';
 }
 
 
